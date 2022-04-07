@@ -637,6 +637,10 @@ footer .logos img {
         padding-top: 0;
     }
 
+    .text1, .text2, .text3 {
+        width: 100%;
+    }
+
     #sec2 .text p {
         margin-bottom: 3rem;
         width: 100%;
@@ -824,6 +828,10 @@ footer .logos img {
         margin-left: 0;
 
         justify-items: center;
+    }
+
+    .text1, .text2, .text3 {
+        width: 100%;
     }
 
     .text h2 {
