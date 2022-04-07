@@ -375,6 +375,10 @@ section h2 {
     line-height: 30px;
 }
 
+.text1, .text2, .text3 {
+    width: 90%;
+}
+
 #sec3 {
     flex-direction: column;
     padding: 2rem 0;
@@ -889,6 +893,11 @@ footer .logos img {
     .text {
         padding: 0 15% 0 12%;
         margin: 0
+    }
+
+
+    .text1, .text2, .text3 {
+        width: 100%;
     }
 
     .text1 p, .text2 p, .text3 p {
