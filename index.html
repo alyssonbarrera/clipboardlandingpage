@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <!-- CSS only -->
   <title>Frontend Mentor | Clipboard landing page</title>
   <link rel="stylesheet" href="style.css">
 
@@ -19,12 +19,12 @@
 
   <header>
     <div id="header">
-      <img src="./images/logo.svg" alt="">
-      <h1>A history of everything you copy</h1>
-      <p>Clipboard allows you to track and organize everything you 
+      <img id="imgHeader" src="./images/logo.svg" data-anime-img-header="scale" alt="logo">
+      <h1 id="h1Header" data-anime-h1-header="top" >A history of everything you copy</h1>
+      <p id="pHeader" data-anime-p-header="top" >Clipboard allows you to track and organize everything you 
         copy. Instantly access your clipboard on all your devices.</p>
       
-      <div class="button">
+      <div class="button" data-anime-btn-header="top">
         <button>Download for iOS</button>
         <button>Download for Mac</button>
       </div>
@@ -33,27 +33,27 @@
   </header>
 
   <section id="sec1">
-    <h2>Keep track of your snippets</h2>
-    <p>Clipboard instantly stores any item you copy in the cloud, 
+    <h2 id="h2Section1" data-anime-section="top">Keep track of your snippets</h2>
+    <p id="pSection1" data-anime-section="top">Clipboard instantly stores any item you copy in the cloud, 
       meaning you can access your snippets immediately on all your 
       devices. Our Mac and iOS apps will help you organize everything.</p>
   </section>
 
   <section id="sec2">
-    <img src="./images/image-computer.png" alt="">
-    <div class="text">
+    <img id="imgSection2" src="./images/image-computer.png" alt="imagem computador" data-anime-img="right">
+    <div class="text" >
 
-      <div class="text1">
+      <div class="text1" data-text1="bottom">
         <h2>Quick Search</h2>
         <p>Easily search your snippets by content, category, web address, application, and more.</p>
       </div>
 
-      <div class="text2">
+      <div class="text2" data-text1="bottom">
         <h2>iCloud Sync</h2>
         <p>Instantly saves and syncs snippets across all your devices.</p>
       </div>
 
-      <div class="text3">
+      <div class="text3" data-text1="bottom">
       <h2>Complete History</h2>
       <p>Retrieve any snippets from the first moment you started using the app.</p>
     </div>
@@ -62,31 +62,31 @@
   </section>
 
   <section id="sec3">
-    <h2>Access Clipboard anywhere</h2>
-    <p>Whether you’re on the go, or at your computer, you can access all your Clipboard 
+    <h2 data-anime="top">Access Clipboard anywhere</h2>
+    <p data-anime="top">Whether you’re on the go, or at your computer, you can access all your Clipboard 
       snippets in a few simple clicks.</p>
-      <img src="./images/image-devices.png" alt="">
+      <img data-anime-img-sec3="scale" src="./images/image-devices.png" alt="">
   </section>
 
   <section id="sec4">
-    <h2>Supercharge your workflow</h2>
-    <p>We’ve got the tools to boost your productivity.</p>
+    <h2 data-anime="top">Supercharge your workflow</h2>
+    <p data-anime="top">We’ve got the tools to boost your productivity.</p>
   </section>
 
   <section id="sec5">
-    <div>
+    <div data-anime-1="top">
       <img src="./images/icon-blacklist.svg" alt="">
       <h3>Create blacklists</h3>
       <p>Ensure sensitive information never makes its way to your clipboard by excluding certain sources.</p>
     </div>
 
-    <div>
+    <div data-anime-2="top">
       <img src="./images/icon-text.svg" alt="">
       <h3>Plain text snippets</h3>
       <p>Remove unwanted formatting from copied text for a consistent look.</p>
     </div>
 
-    <div>
+    <div data-anime-3="top">
       <img src="./images/icon-preview.svg" alt="">
       <h3>Sneak preview</h3>
       <p>Quick preview of all snippets on your Clipboard for easy access.</p>
@@ -94,19 +94,19 @@
   </section>
 
   <section id="logos">
-    <img src="./images/logo-google.png" alt="">
-    <img src="./images/logo-ibm.png" alt="">
-    <img src="./images/logo-microsoft.png" alt="">
-    <img src="./images/logo-hp.png" alt="">
-    <img src="./images/logo-vector-graphics.png" alt="">
+    <img data-anime-1="top" src="./images/logo-google.png" alt="">
+    <img data-anime-2="top" src="./images/logo-ibm.png" alt="">
+    <img data-anime-3="top" src="./images/logo-microsoft.png" alt="">
+    <img data-anime-4="top" src="./images/logo-hp.png" alt="">
+    <img data-anime-5="top" src="./images/logo-vector-graphics.png" alt="">
   </section>
 
   <section id="sec6">
-    <div>
+    <div data-anime="top">
       <h3>Clipboard for iOS and Mac OS</h3>
       <p>Available for free on the App Store. Download for Mac or iOS, sync with iCloud and you’re ready to start adding to your clipboard.</p>
     </div>
-    <div class="button">
+    <div class="button" data-anime="top">
       <button>Download for iOS</button>
       <button>Download for Mac</button>
     </div>
@@ -138,7 +138,7 @@
     </div>
 
   </footer>
-
+  <script src="./app.js"></script>
 </body>
 </html>
 
